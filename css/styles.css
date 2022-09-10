@@ -99,7 +99,8 @@ a:hover {
   margin: 0;
   padding-bottom: 1em;
   border-bottom: 3px solid #ccc;
-  font-size: 26px;
+  color: #067b4a;
+  /* font-size: 26px; */
 }
 .menu-group {
   display: grid;
@@ -139,10 +140,6 @@ a:hover {
 
 /* special order */
 
-.box {
-  width: 18eeem;
-  height: 18em;
-}
 /* .box1 {
   width: 50em;
   height: 50em;
@@ -176,10 +173,8 @@ a:hover {
     width: 150px;
     height: 150px;
   }
-
-  .box {
-    width: 50em;
-    height: 50em;
-    position: relative;
-  }
 }
+/* .box {
+  width: 20em;
+  height: 20em;
+} */
