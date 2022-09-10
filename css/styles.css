@@ -17,7 +17,7 @@ header h2 {
 }
 
 footer {
-  background-image: linear-gradient(#cec8ff, white);
+  background-image: linear-gradient(#c8ffec, white);
   padding: 20px 0;
 }
 
@@ -41,6 +41,9 @@ footer {
 .site-footer {
   background-image: linear-gradient(#cec8ff, white);
   padding: 20px 0;
+}
+.text-center {
+  margin: -5em;
 }
 
 a,
@@ -96,6 +99,7 @@ a:hover {
   margin: 0;
   padding-bottom: 1em;
   border-bottom: 3px solid #ccc;
+  font-size: 26px;
 }
 .menu-group {
   display: grid;
@@ -122,6 +126,9 @@ a:hover {
   justify-content: space-between;
   margin: 0;
 }
+.menu-item-price {
+  font-size: 23px;
+}
 .menu-item-name {
   margin-left: 1.5em;
 }
@@ -133,7 +140,7 @@ a:hover {
 /* special order */
 
 .box {
-  width: 18sem;
+  width: 18eeem;
   height: 18em;
 }
 /* .box1 {
@@ -142,7 +149,8 @@ a:hover {
 } */
 
 .menu-item-price1 {
-  font-size: 20px;
+  font-size: 18px;
+  padding: 0.1em;
 }
 .wrapper {
   max-width: 1500px;
