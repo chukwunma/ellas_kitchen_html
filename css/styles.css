@@ -170,6 +170,25 @@ a:hover {
   margin: 1.5em;
 }
 
+.container2 {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 1.5em;
+  display: flex;
+  margin-bottom: 1em;
+  justify-content: center;
+}
+.menu-group1 {
+  /* display: grid; */
+  /* grid-template-columns: 1fr; */
+  display: flex;
+  justify-content: center;
+  justify-items: auto;
+  gap: 1.5em 0;
+  padding: 1.5em 0;
+  margin-bottom: -2em;
+}
+
 @media screen and (min-width: 1000px) {
   .menu {
     font-size: 16px;
@@ -182,8 +201,21 @@ a:hover {
     width: 150px;
     height: 150px;
   }
+  .menu-item-image1 {
+    flex: 3;
+    width: 200%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+  }
 }
-/* .box {
-  width: 20em;
-  height: 20em;
-} */
+
+@media screen and (min-width: 350px) {
+  .menu-item-image1 {
+    flex: 3;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+  }
+}
